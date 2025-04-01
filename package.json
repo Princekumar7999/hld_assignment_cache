@@ -1,0 +1,20 @@
+{
+    "name": "key-value-cache",
+    "version": "1.0.0",
+    "description": "Key-Value Store with LRU Cache Overview This project provides a simple key-value store with an LRU (Least Recently Used) cache built using Node.js and Express. The cache holds key-value pairs in memory for fast access, making it ideal for high-performance applications. Additionally, a Locust load testing script is included to benchmark the system under heavy loads.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "lru-cache": "^11.1.0",
+        "nodemon": "^3.1.9"
+    }
+}
